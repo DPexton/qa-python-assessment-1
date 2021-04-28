@@ -69,8 +69,23 @@ print(one("hello","hello"))
 	# No hints for this question
 
 def two(arg1):
-	return "null"
 
+	if (arg1 %5) == 0 and (arg1 %3) == 0:
+	   
+	   print("fizzbuzz")
+
+	elif (arg1 %3) == 0:
+	   
+	   print("fizz")
+	
+	elif (arg1 %5) == 0:
+	   
+	   print("buzz")
+	
+	else:
+	    return "null"
+
+print(two(10))
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
 	# <QUESTION 3>
