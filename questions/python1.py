@@ -46,7 +46,6 @@ def one(input1, input2):
 	else: 
 		print(input1)
 
-print(one("hello","hello")) 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
 	# <QUESTION 2>
@@ -85,7 +84,6 @@ def two(arg1):
 	else:
 	    return "null"
 
-print(two(10))
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
 	# <QUESTION 3>
@@ -103,8 +101,20 @@ print(two(10))
 	# How do we ignore case in a String? help(str) may offer some insight.
 
 def three(input):
-    return 0
+    vowels = ["a", "e", "i", "o", "u"]
+	
+	count = 0
+	
+	for i in range(len(input)):
 
+		if i = vowels:
+		count += 1
+	    
+		else
+	
+	return 0
+
+print(three(ocean))
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
 	# <QUESTION 4>
@@ -126,7 +136,9 @@ def three(input):
 
 
 def four(input):
-    return False
+    
+	
+	return False
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
@@ -168,7 +180,13 @@ def five(input):
 	# How do we find the length of a container, take a look at help(len), you will also need to look at help(str) for String manipulation.
  
 def six(string, int, char):
-	return False
+	
+	if string.isdigit(int) == char:
+	   
+	    return True
+	
+	else:
+	    return False
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
@@ -218,7 +236,10 @@ def seven(inputString, char):
 	# help(int) for working with numbers and help(str) for working with Strings.
 
 def eight(arg1):
+	
 	return 0
+  
+
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
@@ -245,6 +266,8 @@ def eight(arg1):
 	# Use your CLI to access the Python documentation and get help manipulating strings - help(str).
 
 def nine(input):
+	
+	
 	return ""
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
